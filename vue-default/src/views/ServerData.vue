@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import axios from "axios";
+// import axios from "axios";
 
 export default {
   data() {
@@ -38,17 +38,17 @@ export default {
       this.productList = await this.api(url, "get", {});
       console.log(this.productList);
     },
-    async api(url, method, data) {
-      return (
-        await axios({
-          method: method,
-          url: url,
-          data: data,
-        }).catch((e) => {
-          console.log(e);
-        })
-      ).data;
-    },
+    // async api(url, method, data) {
+    //   return (
+    //     await axios({
+    //       method: method,
+    //       url: url,
+    //       data: data,
+    //     }).catch((e) => {
+    //       console.log(e);
+    //     })
+    //   ).data;
+    // },
   },
 };
 </script>

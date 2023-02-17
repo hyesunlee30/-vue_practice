@@ -14,7 +14,17 @@
     <router-link to="/save">Save</router-link> |
     <router-link to="/server">ServeData</router-link> |
     <router-link to="/slot">SlotUseModalLayout</router-link> |
-    <router-link to="/provide">Provide Inject</router-link>
+    <router-link to="/provide">Provide Inject</router-link> |
+    <router-link to="/mixin">Mixin</router-link> |
+    <router-link to="/calculator">Calculator</router-link> |
+    <router-link to="/com1">CompositionAPI1</router-link> |
+    <router-link to="/com2">CompositionAPI2</router-link> |
+    <router-link to="/com3">CompositionAPI3</router-link> |
+    <router-link to="/com4">CompositionAPI4</router-link> |
+    <router-link to="/com5">CompositionAPIProvideInjection</router-link> |
+    <router-link to="/customdirective">CustomDirective</router-link> |
+    <router-link to="/plugins">Plugins</router-link> |
+    <router-link to="/storeaccess">storeaccess</router-link>
   </nav>
   <router-view />
 </template>

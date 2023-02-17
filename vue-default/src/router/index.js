@@ -135,6 +135,105 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/SlotUseModalLayout.vue"),
   },
+  {
+    path: "/provide",
+    name: "ProvideInject",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+        import(/* webpackChunkName: "about" */ "../views/ProvideInject.vue"),
+  },
+  {
+    path: "/mixin",
+    name: "MixinTest",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+        import(/* webpackChunkName: "about" */ "../views/MixinTest.vue"),
+  },
+  {
+    path: "/calculator",
+    name: "Calculator",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+        import(/* webpackChunkName: "about" */ "../views/CalculatorView.vue"),
+  },
+  {
+    path: "/com1",
+    name: "CompositionAPI1",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+        import(/* webpackChunkName: "about" */ "../views/CompositionAPI.vue"),
+  },
+  {
+    path: "/com2",
+    name: "CompositionAPI2",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+        import(/* webpackChunkName: "about" */ "../views/CompositionAPI2.vue"),
+  },
+  {
+    path: "/com3",
+    name: "CompositionAPI3",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+        import(/* webpackChunkName: "about" */ "../views/CompositionAPI3.vue"),
+  },
+  {
+    path: "/com4",
+    name: "CompositionAPI4",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+        import(/* webpackChunkName: "about" */ "../views/CompositionAPI4.vue"),
+  },
+  {
+    path: "/com5",
+    name: "CompositionAPIProvideInjection",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+        import(/* webpackChunkName: "about" */ "../views/CompositionAPIProvide.vue"),
+  },
+  {
+    path: "/customdirective",
+    name: "CustomDirective",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+        import(/* webpackChunkName: "about" */ "../views/CustomDirective.vue"),
+  },
+  {
+    path: "/plugins",
+    name: "plugins",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+        import(/* webpackChunkName: "about" */ "../views/PluginsView.vue"),
+  },
+  {
+    path: "/storeaccess",
+    name: "storeaccess",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+        import(/* webpackChunkName: "about" */ "../views/StoreAccess.vue"),
+  }
 ];
 
 const router = createRouter({
